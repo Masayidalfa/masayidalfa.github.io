@@ -23,10 +23,7 @@ export default function Home() {
       <div className="textBox">
         <h1><span>Muhamad</span> Masayid Alfarizqi</h1>
         <p>
-          Mahasiswa Teknik Informatika dengan fokus di Software Engineering sebagai Fullstack Developer.
-          Berpengalaman menggunakan Laravel untuk backend, React.js untuk frontend, serta mahir dengan
-          Tailwind CSS dan Bootstrap. Aktif mengasah kemampuan melalui proyek web dan menjelajahi pengembangan
-          mobile untuk menciptakan aplikasi berkualitas.
+
         </p>
         {/* <button className="homeBtn" style={{-i: '#fff'}}>Contact Me</button>
         <button className="homeBtn" style={{-i: '#00bfff'}}>Explore</button> */}
