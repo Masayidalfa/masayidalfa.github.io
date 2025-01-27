@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -37,6 +36,22 @@ body {
   width: 80%;
 }
 
+/* Animation Box */
+.colorBox{
+    z-index: 2;
+    filter: brightness(1.1);
+    transition: 2s ease;
+    position: relative;
+    margin: 2px;
+    background: #1d1d1d;
+}
+
+.colorBox:hover{
+    background: #00bfff;
+    transition-duration: 0s;
+}
+
+/* Animation blue  */
 .bgAnimation {
     position: absolute;
     top: 0;

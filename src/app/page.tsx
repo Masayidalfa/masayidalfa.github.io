@@ -9,7 +9,7 @@ export default function Home() {
 
   useEffect(() => {
     initializeBgAnimation(); // Panggil logika untuk animasi latar
-  }, []); // Efek hanya dijalankan sekali saat komponen dimuat
+  }, []);
 
 
   return (
@@ -23,7 +23,7 @@ export default function Home() {
       {/* BG Animation End */}
 
       {/* Navbar Start */}
-      <nav className="w-full flex justify-between items-center p-10 h-[100px] bg-transparent">
+      <nav className="w-full flex justify-between items-center p-10 h-[100px] bg-transparent z-20">
         <h1 className="text-4xl font-semibold text-white tracking-widest cursor-pointer">
           <span className="text-cyan-400">MASAYID</span>ALFA
         </h1>
