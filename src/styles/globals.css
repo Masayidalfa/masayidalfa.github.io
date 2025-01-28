@@ -16,7 +16,16 @@ body {
 }
 
 
-.container nav ul li::after{
+nav ul li{
+    position: relative;
+    list-style: none;
+    padding: 12px 14px;
+    cursor: pointer;
+    pointer-events: all;
+    overflow: hidden;
+}
+
+nav ul li::after{
   content: '';
   position: absolute;
   bottom: 5px;
@@ -28,17 +37,17 @@ body {
   transition: .3s;
 }
 
-.container nav li:hover{
+nav li:hover{
   color: #00bfff;
 }
 
-.container nav li:hover::after{
+nav li:hover::after{
   width: 80%;
 }
 
 /* Animation Box */
 .colorBox{
-    z-index: 2;
+    z-index: 1;
     filter: brightness(1.1);
     transition: 2s ease;
     position: relative;
