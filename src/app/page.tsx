@@ -1,5 +1,6 @@
 "use client";
-// import Image from "next/image";
+import Image from "next/image";
+
 import '@/styles/globals.css';
 // Import fungsi dari file TypeScript
 import { useEffect } from "react";
@@ -53,18 +54,23 @@ export default function Home() {
       {/* Navbar End */}
 
       {/* Hero Section Start */}
-      <section className="flex justify-center items-center h-[calc(100vh-100px)] text-center">
-        <div className="text-white">
-          <h1 className="text-5xl font-bold relative">
-            <span className="text-cyan-400">Muhamad</span> Masayid Alfarizqi
-          </h1>
-          <p className="text-lg my-4 relative">This is your introductory text here</p>
-          <button className="px-6 py-2 bg-cyan-400 text-black font-semibold text-lg rounded-lg transition hover:bg-cyan-600 relative">
-            Contact Me
-          </button>
+      <section id="home" className="pt-36 relative">
+        <div className="container">
+          <div className="flex flex-wrap">
+            <div className="w-full self-center px-4 lg:w-1/2  ">
+              <h1 className="text-base font-semibold text-cyan-400">Halo Semua, Saya <span className="block font-bold text-white text-4xl mt-1">Muhamad Masayid Alfarizqi</span></h1>
+              <h2 className="font-medium text-slate-200 text-lg mb-5">Fullstack Web Developer & Content Creator</h2>
+              <p className="font-medium text-slate-200 mb-10 leading-relaxed">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, odio. Laudantium, <span className="font-bold text-cyan-400">ipsum</span></p>
+              <a href="#" className="text-base font-semibold text-white bg-cyan-400 py-3 px-8 rounded-full hover:shadow-lg hover:bg-cyan-200">Hubungi Saya</a>
+            </div>
+            <div className="w-full self-end px-4 lg:w-1/2 ">
+              <div className="mt10">
+                <Image src="/img/in_formal1.jpg" alt="Masayid Alfarizqi" className="max-w-full mx-auto" width={200} height={200}/>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
-
       {/* Hero Section End */}
     </div>
 
