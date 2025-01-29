@@ -65,7 +65,7 @@ export default function Home() {
             </div>
             <div className="w-full self-end px-4 lg:w-1/2 ">
               <div className="mt10">
-                <Image src="/img/in_formal1.jpg" alt="Masayid Alfarizqi" className="max-w-full mx-auto" width={200} height={200}/>
+                <Image src="/img/in_formal1.jpg" alt="Masayid Alfarizqi" className="max-w-full mx-auto rounded-full" width={200} height={100}/>
               </div>
             </div>
           </div>
