@@ -12,7 +12,6 @@ export default function Home() {
     initializeBgAnimation(); // Panggil logika untuk animasi latar
   }, []);
 
-
   return (
     <div>
 
