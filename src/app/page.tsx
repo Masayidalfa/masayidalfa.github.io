@@ -71,6 +71,16 @@ export default function Home() {
         </div>
       </section>
       {/* Hero Section End */}
+
+      {/* About Section Start */}
+      <section id="about">
+        <div className="container">
+          <div className="flex flex-wrap">
+            
+          </div>
+        </div>
+      </section>
+      {/* About Section End */}
     </div>
 
   );
