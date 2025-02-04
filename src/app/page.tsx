@@ -81,6 +81,16 @@ export default function Home() {
         </div>
       </section>
       {/* About Section End */}
+
+      {/* Tools adn System */}
+      <section id="tools">
+        <div className="container">
+          <div className="flex flex-wrap">
+            
+          </div>
+        </div>
+      </section>
+      {/* Tools adn System */}
     </div>
 
   );
