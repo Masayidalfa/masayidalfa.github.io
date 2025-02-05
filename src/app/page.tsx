@@ -91,7 +91,19 @@ export default function Home() {
         </div>
       </section>
       {/* Tools adn System */}
+
+      {/* Project section Start */}
+      <div id="project">
+        <div className="container">
+          <div className="flex flex-wrap">
+            
+          </div>
+        </div>
+      </div>
+      {/* Project section End */}
     </div>
+
+    
 
   );
 }
