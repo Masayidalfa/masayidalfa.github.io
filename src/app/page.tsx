@@ -101,6 +101,16 @@ export default function Home() {
         </div>
       </div>
       {/* Project section End */}
+
+      {/* Contact section Start */}
+      <div id="contact">
+        <div className="container">
+          <div className="flex flex-wrap">
+            
+          </div>
+        </div>
+      </div>
+      {/* Contact section End */}
     </div>
 
     
