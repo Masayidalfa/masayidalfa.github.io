@@ -76,7 +76,10 @@ export default function Home() {
       <section id="about">
         <div className="container">
           <div className="flex flex-wrap">
-            
+            <div className="w-full self-center px-4 lg:w-1/2">
+            </div>
+            <div className="w-full self-end px-4 lg:w-1/2">
+            </div>
           </div>
         </div>
       </section>
