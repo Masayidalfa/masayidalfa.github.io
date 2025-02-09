@@ -9,7 +9,7 @@ import { initializeBgAnimation } from "@/utils/bgAnimation";
 export default function Home() {
 
   useEffect(() => {
-    initializeBgAnimation(); // Panggil logika untuk animasi latar
+    initializeBgAnimation();
   }, []);
 
   return (
@@ -64,7 +64,7 @@ export default function Home() {
             </div>
             <div className="w-full self-end px-4 lg:w-1/2 ">
               <div className="mt10">
-                <Image src="/img/in_formal1.jpg" alt="Masayid Alfarizqi" className="max-w-full mx-auto rounded-full" width={200} height={100}/>
+                <Image src="/img/in_formal1.jpg" alt="Masayid Alfarizqi" className="max-w-full mx-auto rounded-full" width={200} height={100} />
               </div>
             </div>
           </div>
@@ -73,12 +73,17 @@ export default function Home() {
       {/* Hero Section End */}
 
       {/* About Section Start */}
-      <section id="about">
+      <section id="about" className="pt-36 pb-32">
         <div className="container">
           <div className="flex flex-wrap">
             <div className="w-full self-center px-4 lg:w-1/2">
+              <h4 className="font-bold uppercase text-lg mb-3">Tentang Saya</h4>
+              <h2 className="font-bold text-3xl mb-3">Yuk, Kenalan sama aku</h2>
+              <p className="font-medium text-base">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid qui nobis alias?</p>
             </div>
             <div className="w-full self-end px-4 lg:w-1/2">
+              <h3 className="font-semibold text-2xl mb-4">Mari Berteman</h3>
+              <p className="font-medium text-base mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quae facere quod?</p>
             </div>
           </div>
         </div>
@@ -89,8 +94,9 @@ export default function Home() {
       <section id="tools">
         <div className="container">
           <div className="flex flex-wrap">
-            
+
           </div>
+          <div className="w-full px4"></div>
         </div>
       </section>
       {/* Tools adn System */}
@@ -99,7 +105,7 @@ export default function Home() {
       <div id="project">
         <div className="container">
           <div className="flex flex-wrap">
-            
+
           </div>
         </div>
       </div>
@@ -109,7 +115,7 @@ export default function Home() {
       <div id="certificate">
         <div className="container">
           <div className="flex flex-wrap">
-            
+
           </div>
         </div>
       </div>
@@ -119,14 +125,14 @@ export default function Home() {
       <div id="contact">
         <div className="container">
           <div className="flex flex-wrap">
-            
+
           </div>
         </div>
       </div>
       {/* Contact section End */}
     </div>
 
-    
+
 
   );
 }
