@@ -24,9 +24,7 @@ export default function Home() {
 
       {/* Navbar Start */}
       <nav className="w-full flex justify-between items-center p-10 h-[100px] bg-transparent">
-        <h1 className="text-4xl font-semibold text-white tracking-widest cursor-pointer relative">
-          <span className="text-cyan-400">MASAYID</span>ALFA
-        </h1>
+        
         <ul className="flex space-x-6 relative">
           <li className="text-lg font-medium cursor-pointer hover:text-cyan-400">
             Home
@@ -51,6 +49,25 @@ export default function Home() {
         </ul>
       </nav>
       {/* Navbar End */}
+        <header className="bg-transparent absolute top-0 left-0 w-full flex items-center z-30">
+          <div className="container">
+            <div className="flex items-center justify-between relative">
+              <div className="px-4">
+                <h1 className="text-4xl font-semibold text-white tracking-widest cursor-pointer block">
+                  <span className="text-cyan-400">MASAYID</span>ALFA
+                </h1>
+              </div>
+              <div className="flex items-center px-4">
+                <button id="hamburger" name="hamburger" className="block absolute right-4">
+                  <span className="hamburger-line"></span>
+                  <span className="hamburger-line"></span>
+                  <span className="hamburger-line"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </header>
+      {/* Header Start */}
 
       {/* Hero Section Start */}
       <section id="home" className="pt-36 relative">
