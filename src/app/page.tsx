@@ -5,11 +5,13 @@ import '@/styles/globals.css';
 // Import fungsi dari file TypeScript
 import { useEffect } from "react";
 import { initializeBgAnimation } from "@/utils/bgAnimation";
+import { initializeHamburgerAnimation } from "@/utils/hamburgerAnimation";
 
 export default function Home() {
 
   useEffect(() => {
     initializeBgAnimation();
+    initializeHamburgerAnimation();
   }, []);
 
   return (
@@ -58,7 +60,7 @@ export default function Home() {
                 </h1>
               </div>
               <div className="flex items-center px-4">
-                <button id="hamburger" name="hamburger" className="block absolute right-4">
+                <button id="hamburger" name="hamburger" type="button" className="block absolute right-4">
                   <span className="hamburger-line"></span>
                   <span className="hamburger-line"></span>
                   <span className="hamburger-line"></span>
